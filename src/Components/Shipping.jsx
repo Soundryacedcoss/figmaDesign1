@@ -8,7 +8,7 @@ export const Shipping = () => {
       </p>
       <div className="shipppingaddress_row">
         <input type="radio" className="radiobutton" />
-        <b className="number">$2.99</b>
+        <b className="number color">$2.99</b>
         <span className="shipping_text">
           UPSC first class with tracking (3 to 5 days) COVID-19 Delay
         </span>
@@ -19,7 +19,7 @@ export const Shipping = () => {
         style={{ marginTop: "15px", backgroundColor: "white",border:"solid gray 1px" }}
       >
         <input type="radio" className="radiobutton" />
-        <b className="number">$9.99</b>
+        <b className="number color">$9.99</b>
         <span className="shipping_text">
           UPSC priority with tracking (3 to 5 days) COVID-19 Delay
         </span>

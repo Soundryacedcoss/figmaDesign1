@@ -20,7 +20,9 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
 }
-
+.color{
+  color: black;
+}
 .container_head {
   width: 118px;
   height: 20px;
@@ -80,13 +82,13 @@ body {
 }
 a {
   text-decoration: none;
+  color: #2F88FF;
 }
 .paymentlink {
   width: 70px;
   height: 20px;
   margin-top: 430px;
-  color: blue;
-  /* padding: 42px 164px 44px 18px; */
+  color: #2F88FF;
 }
 
 .Lock_icon {

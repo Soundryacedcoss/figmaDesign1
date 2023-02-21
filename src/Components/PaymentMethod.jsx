@@ -14,7 +14,7 @@ export const PaymentMethod = () => {
         style={{ backgroundColor: "white",border:"solid gray 1px" }}
       >
         <input type="radio" className="radiobutton" />
-        <b className="number">Paypal</b>
+        <b className="number color">Paypal</b>
         <span className="shipping_text">
           you will be redirected to paypal website after submitting your order
         </span>
@@ -31,7 +31,7 @@ export const PaymentMethod = () => {
       <div className="Creditcard">
         <div>
           <input type="radio" className="radiobutton" />
-          <b className="number">Pay with credit card</b>
+          <b className="number color">Pay with credit card</b>
         </div>
         <div>
           <TextField
