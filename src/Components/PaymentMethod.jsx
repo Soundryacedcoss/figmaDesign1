@@ -11,7 +11,7 @@ export const PaymentMethod = () => {
       </span>
       <div
         className="shipppingaddress_row"
-        style={{ backgroundColor: "white" }}
+        style={{ backgroundColor: "white",border:"solid gray 1px" }}
       >
         <input type="radio" className="radiobutton" />
         <b className="number">Paypal</b>

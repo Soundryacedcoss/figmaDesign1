@@ -15,7 +15,7 @@ function App() {
       <header>
         <img src={logo} alt="" />
         <p style={{ float: "right" }}>
-          already have an account ? <a href="//">Sign in</a>
+          Already have an account ? <a href="//">Sign in</a>
         </p>
       </header>
       <div className="card_container" style={{ }}>

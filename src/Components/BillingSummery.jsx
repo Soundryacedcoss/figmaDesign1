@@ -10,25 +10,27 @@ export const BillingSummery = () => {
           <i class="fa fa-caret-up"></i>
         </span>
       </div>
-      <div style={{ marginTop: "29px" }}>
+      <div style={{ marginTop: "29px", color: "#4F4F4F" }}>
         <span>Subtotal</span>
         <span style={{ float: "right" }}>$3720,50</span>
       </div>
-      <div style={{ marginTop: "12px" }}>
+      <div style={{ marginTop: "12px", color: "#4F4F4F" }}>
         <span>Discount</span>
         <span style={{ float: "right" }}>$3720,50</span>
       </div>
-      <div style={{ marginTop: "12px" }}>
+      <div style={{ marginTop: "12px", color: "#4F4F4F" }}>
         <span>warrenty (platinum)</span>
         <span style={{ float: "right" }}>$3720,50</span>
         <br />
         <a href="//">remove</a>
       </div>
-      <div style={{ marginTop: "12px" }}>
+      <div style={{ marginTop: "12px", color: "#4F4F4F" }}>
         <span>Shipping</span>
         <span style={{ float: "right" }}>$3720,50</span>
       </div>
-      <div style={{ marginTop: "12px", marginBottom: "27px" }}>
+      <div
+        style={{ marginTop: "12px", marginBottom: "27px", color: "#4F4F4F" }}
+      >
         <span>tex</span>
         <span style={{ float: "right" }}>$3720,50</span>
       </div>
@@ -49,7 +51,7 @@ export const BillingSummery = () => {
         <div>
           <input type="checkbox" defaultChecked />
         </div>
-        <div>
+        <div style={{ color: "#4F4F4F" }}>
           Please check to acknowledge our <a href="//">policy & term Policy</a>{" "}
         </div>
       </div>

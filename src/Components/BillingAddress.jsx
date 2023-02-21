@@ -5,12 +5,11 @@ export const BillingAddress = () => {
   return (
     <div className="Billingaddress_container card">
       <p className="container_head">Billing Address</p>
-
       <TextField
         id="outlined-basic"
         label="first Name"
         variant="outlined"
-        defaultValue=" "
+        defaultValue="Alex"
         style={{ width: "255px", height: "44px" }}
       />
 
@@ -18,7 +17,7 @@ export const BillingAddress = () => {
         id="outlined-basic"
         label="last Name"
         variant="outlined"
-        defaultValue=" "
+        defaultValue="driver"
         style={{ width: "255px", height: "44px", marginLeft: "16px" }}
       />
       <TextField

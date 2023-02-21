@@ -16,7 +16,7 @@ export const Shipping = () => {
       </div>
       <div
         className="shipppingaddress_row"
-        style={{ marginTop: "15px", backgroundColor: "white" }}
+        style={{ marginTop: "15px", backgroundColor: "white",border:"solid gray 1px" }}
       >
         <input type="radio" className="radiobutton" />
         <b className="number">$9.99</b>

@@ -1,19 +1,24 @@
+body {
+  background-color: whitesmoke;
+}
 .Container {
   width: 964px;
   margin: auto;
 }
-.card_container{
+.card_container {
   display: flex;
   column-gap: 30px;
-   margin-top:20px
+  margin-top: 20px;
 }
 .Billingaddress_container {
+  color: #4f4f4f;
   height: 567px;
 }
 .card {
   padding: 19px 0px 30px 20px;
   width: 570px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
 }
 
 .container_head {
@@ -26,9 +31,10 @@
 }
 .shipppingaddress_row {
   display: flex;
+  border: solid dodgerblue 1px;
   background: #1660cf;
   background-color: rgb(22, 96, 207, 0.1);
-  border: solid gray 1px;
+  color: #4f4f4f;
   width: 528px;
   height: 74px;
 }
@@ -63,11 +69,13 @@
 
 .Creditcard {
   width: 528px;
+  color: #4f4f4f;
   height: 220px;
   border: solid gray 1px;
   margin: 15px 21px 21px 0px;
   background: #1660cf;
   background-color: rgb(22, 96, 207, 0.1);
+  border: solid dodgerblue 1px;
 }
 a {
   text-decoration: none;
@@ -98,6 +106,7 @@ a {
   height: 75px;
   padding: 19px 20px 0px 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
 }
 .box {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -122,6 +131,8 @@ a {
 .Paybutton {
   width: 368px;
   height: 40px;
+  size: 16px;
+  font-weight: 198px;
 }
 .button {
   margin-top: 20px;
@@ -131,16 +142,14 @@ a {
 }
 
 @media screen and (max-width: 1098px) {
-  div.card_container{
+  div.card_container {
     display: inline;
   }
-  div.Container{
+  div.Container {
     width: 500px;
   }
 }
 @media screen and (max-width: 718px) {
- 
-  div.Container{
- 
+  div.Container {
   }
 }
