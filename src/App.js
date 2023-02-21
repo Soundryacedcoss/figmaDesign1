@@ -1,23 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { BillingAddress } from "./Components/BillingAddress";
+import { BillingSummery } from "./Components/BillingSummery";
+import { DiscountCode } from "./Components/DiscountCode";
+import { Left } from "./Components/Left";
+import { OrderReview } from "./Components/OrderReview";
+import { PaymentMethod } from "./Components/PaymentMethod";
+import { Right } from "./Components/Right";
+import { Shipping } from "./Components/Shipping";
 
+import logo from "./Images/OneStep v1/Logo.svg";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="Container">
+      <header>
+        <img src={logo} alt="" />
+        <p style={{ float: "right" }}>
+          already have an account ? <a href="//">Sign in</a>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <div className="card_container" style={{ }}>
+        <div style={{ width: "570px" }}>
+          <BillingAddress />
+          <Shipping />
+          <PaymentMethod />
+        </div>
+        <div style={{ width: "370px" }}>
+          <OrderReview />
+          <DiscountCode />
+          <BillingSummery />
+        </div>
+      </div>
     </div>
   );
 }
