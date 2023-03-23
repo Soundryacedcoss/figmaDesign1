@@ -1,158 +1,40 @@
-body {
-  background-color: whitesmoke;
-}
-.Container {
+/* CSS for header component */
+.header {
   width: 964px;
+  margin-top: 40px;
+}
+
+/* CSS for make main container */
+.container {
+  display: flex;
   margin: auto;
-}
-.card_container {
-  display: flex;
-  column-gap: 30px;
-  margin-top: 20px;
-}
-.Billingaddress_container {
-  color: #4f4f4f;
-  height: 567px;
-}
-.card {
-  padding: 19px 0px 30px 20px;
-  width: 570px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: white;
-}
-.color{
-  color: black;
-}
-.container_head {
-  width: 118px;
-  height: 20px;
-  font-weight: bold;
-  color: black;
-}
-.shipppingaddress {
-  margin-top: 20px;
-}
-.shipppingaddress_row {
-  display: flex;
-  border: solid dodgerblue 1px;
-  background: #1660cf;
-  background-color: rgb(22, 96, 207, 0.1);
-  color: #4f4f4f;
-  width: 528px;
-  height: 74px;
+  width: 964px;
+  column-gap: 24px;
 }
 
-.radiobutton {
-  margin: 18px 0px 42px 19px;
-}
-.number {
-  margin-left: 8px;
-  margin-top: 15px;
-}
-.SideImg {
-  height: 50px;
-  width: 50px;
-  margin: 8px 16px 16px 25px;
-}
-
-.shipping_text {
-  width: 330px;
-  height: 40px;
-  margin: 15px 0 19px 25px;
-}
-
-/* payment method styling */
-.paymentMethod_container {
-  margin: 20px 872px 112px 0px;
-}
-.payment_heading {
-  width: 138px;
-  height: 20px;
-}
-
-.Creditcard {
-  width: 528px;
-  color: #4f4f4f;
-  height: 220px;
-  border: solid gray 1px;
-  margin: 15px 21px 21px 0px;
-  background: #1660cf;
-  background-color: rgb(22, 96, 207, 0.1);
-  border: solid dodgerblue 1px;
-}
-a {
-  text-decoration: none;
-  color: #2F88FF;
-}
-.paymentlink {
-  width: 70px;
-  height: 20px;
-  margin-top: 430px;
-  color: #2F88FF;
-}
-
-.Lock_icon {
-  padding: 1%;
-  color: #1660cf;
-  border: solid #1660cf 1px;
-  border-radius: 50%;
-}
-
-.TermCondition {
-  font-size: 12px;
-  margin: 23px 27px 26px 10px;
-  width: 480px;
-  height: 20px;
-}
-.Right_card {
-  width: 370px;
-  height: 75px;
-  padding: 19px 20px 0px 20px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-color: white;
-}
-.box {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.order_review__des {
-  margin-top: 11px;
-}
-.discount_code {
-  margin-top: 20px;
-  height: 60px;
-}
-.bill_sum_head {
-  width: 131px;
-  height: 20px;
-}
-.Billing_summery {
-  width: 370px;
-  height: 530px;
-  margin-top: 12px;
-}
-.Paybutton {
-  width: 368px;
-  height: 40px;
-  size: 16px;
-  font-weight: 198px;
-}
-.button {
-  margin-top: 20px;
-}
-.lastlogo {
-  margin: 14px 147px 17.67px 147px;
-}
-
-@media screen and (max-width: 1098px) {
-  div.card_container {
-    display: inline;
+/* Media Query for 950px */
+@media screen and (max-width: 950px) {
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
   }
-  div.Container {
-    width: 500px;
+  .header {
+    width: 570px;
   }
 }
-@media screen and (max-width: 718px) {
-  div.Container {
+
+/* Media Query for 580px */
+@media screen and (max-width: 580px) {
+  .container {
+    width: 80%;
+  }
+
+  .header {
+    width: 90%;
+  }
+  
+  .cardContainer {
+    width: auto;
   }
 }
